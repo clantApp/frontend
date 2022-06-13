@@ -1,9 +1,9 @@
 .container {
   display: flex;
   align-items: center;
-  height: 100vh;
   flex-direction: column;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .comingsoon{
@@ -13,4 +13,21 @@
 }
 .p{
   letter-spacing: 2px;
+  text-align: center;
+}
+
+.twitterButton {
+  background: linear-gradient(45deg, #438254, #08426b);
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.25;
+  padding: .7rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
 }
